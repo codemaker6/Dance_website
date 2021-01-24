@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    padding:0px;
+    box-sizing: border-box;
+    margin:0px;
+}
+#logo{
+    display:flex;
+    align-items: center;
+    margin:0px 15px;
+    font-size: 28px;
+    margin-right:40px;
+    
+}
+#logo img{
+    height:42px;
+}
+#navbar{
+        background-color:honeydew;
+        padding:13px 14px;
+        font-family: 'Lobster', cursive;
+        font-size:25px;
+
+}
+#navbar li{
+     list-style:none;
+}
+
+#navbar ul{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#navbar li a{
+     color:black;
+    text-decoration: none;
+    padding:20px 30px;
+}
+#navbar li a:hover{
+    
+   color:firebrick;
+}
+#introsection{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 44px;
+    font-family:'Lobster', cursive;
+    height:350px;
+    background:center/cover no-repeat url('/static/dance4.jpg');
+    padding-bottom: 40px;
+}
+#introsection div.dance{
+    font-size: 34px;
+    color:white;
+    margin:4px;
+    font-style: italic;
+    padding:5px;
+}
+#cardsection{
+        height:300px;
+        width:100%;
+        margin:auto;
+        background-color:oldlace;
+}
+#cardsection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Lobster', cursive; 
+    font-size:35px;
+    
+}
+.card{
+    display:inline-block;
+    border:2px solid black;
+    border-radius: 10px;
+    width:29%;
+    height:200px;
+    margin:20px 20px;
+
+}
+.card h3{
+    text-align: center;
+    margin:10px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-box{
+    justify-content:space-between ;
+    align-items: center;
+    display:flex;
+    
+}
+.card-img{
+    height:137px;
+    padding:0px 14px;
+    margin:4px 9px;
+}
+.card-content p{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card-img img{
+    height:inherit;
+}
+#sponsersection{
+    height:300px;
+    background-color:rgb(226, 222, 215);
+    font-family: 'Lobster', cursive;
+}
+#sponser{
+       margin:30px auto;
+       height:120px;
+       max-width: 1000px;
+    }
+.sp{
+    height:80%;
+    margin:20px 20px;
+
+}
+h2{
+    font-size: 35px;
+    justify-content: center;
+    padding:5px;
+    text-align: center;
+}
+#footer{
+    display:flex;
+    height:60px;
+    background-color:black;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+
+}

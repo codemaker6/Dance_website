@@ -1,0 +1,64 @@
+doctype html
+html
+  head
+    title Aman dance academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top
+        ul  
+            div#logo 
+                img(src="/static/1.png")
+                | AD'A
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]             
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+    section#introsection
+            div  Welcome to Aman's Dance Academy
+            div.dance  Dancing is creating a sculpture that is visible only for a moment
+    section#cardsection
+            h2 our mission
+            div.card    
+                h3 Dance the way you like 
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/1.png")
+                    div.card-content 
+                        p This is best dance academy ever    
+            div.card    
+                h3 Learn with fun  
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/2.png")
+                    div.card-content 
+                        p Dance is the art of soul 
+            div.card    
+                h3 Expert collabartion 
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/3.png")
+                    div.card-content 
+                        p Do dance like a rockstar          
+    section#sponsersection
+            h2 Sponsers   
+            div#sponser 
+                img(src="/static/sp1.jpg", alt="our sponser",class="sp")    
+                img(src="/static/sp3.jpg", alt="our sponser",class="sp")  
+                img(src="/static/sp7.jpg", alt="our sponser",class="sp")  
+                img(src="/static/sp8.jpg", alt="our sponser",class="sp")            
+    footer#footer
+            |    Copyright @ Aman's Dance Academy.com   
+            |   All Right Reserved          
+    script
+      include ../static/index.js
+      
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+*{
+    padding:0px;
+    box-sizing: border-box;
+    margin:0px;
+}
+h1{
+    text-align: center;
+}
+.container{
+    background-color:beige;
+    padding:10px;
+    min-height: 79vh;
+
+}
+.myform{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:12px;
+}
+.myinput{
+    width:45%;
+    font-size: 16px;
+    margin:8px;
+    padding:7px;
+    border:2px solid black;
+    border-radius: 7px;
+    outline:none;
+}
+.btn{
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 15px;
+    color: white;
+    background: #e63737;
+    padding: 6px;
+    margin: 6px;
+    font-family: -webkit-pictograph;
+}
