@@ -7,7 +7,7 @@ mongoose.connect('mongodb://localhost/contactform', {useNewUrlParser: true, useU
 const app=express();
 const port=5000;
 // database schema
-const contactSchema= new mongoose.Schema({
+const contactSchema= new mongoose.Schema({  // my schema is defined
     name: String,
     email:String,
     phone:String,
