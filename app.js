@@ -5,7 +5,7 @@ const bodyparser=require("body-parser");
 const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/contactform', {useNewUrlParser: true, useUnifiedTopology: true});
 const app=express();
-const port=5000;
+const port= process.env.PORT||5000;
 // database schema
 const contactSchema= new mongoose.Schema({  // my schema is defined
     name: String,
